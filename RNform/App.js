@@ -86,7 +86,7 @@ export default function App(){
       <KeyboardAvoidingView behavior='padding' keyboardVerticalOffset={Platform.OS === 'ios' ? 100 : 0} style={styles.container}>
      <View style={styles.form}>
 
-      <Image source={require('./assets/adaptive-icon.png')}  style={styles.image}/>
+      {/* <Image source={require('./assets/adaptive-icon.png')}  style={styles.image}/> */}
        <Text style={styles.label}>Username</Text>
        <TextInput style={styles.input} placeholder='Enter Your username' value={username} onChangeText={setUserName}/>
 
